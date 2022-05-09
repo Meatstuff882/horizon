@@ -3883,4 +3883,9 @@
 #include "interface\menu.dm"
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
+#include "korps_modular\korps_masterfiles\code\game\objects\effects\decals\turfdecal\korps.dm"
+#include "korps_modular\korps_masterfiles\code\map_contents\korps-ship\korps_ship_define.dm"
+#include "korps_modular\korps_masterfiles\code\map_contents\korps-ship\korps_ship_id_trim.dm"
+#include "korps_modular\korps_masterfiles\code\map_contents\korps-ship\korps_ship_jobs.dm"
+#include "korps_modular\korps_masterfiles\code\map_contents\korps-ship\korps_ship_outfits.dm"
 // END_INCLUDE
