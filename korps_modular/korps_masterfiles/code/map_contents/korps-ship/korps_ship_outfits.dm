@@ -19,8 +19,6 @@
 	head = /obj/item/clothing/head/caphat
 	backpack_contents = list(/obj/item/melee/classic_baton/telescopic=1, /obj/item/station_charter=1)
 
-	skillchips = list(/obj/item/skillchip/disk_verifier)
-
 	backpack = /obj/item/storage/backpack/captain
 	satchel = /obj/item/storage/backpack/satchel/cap
 	duffelbag = /obj/item/storage/backpack/duffelbag/captain
@@ -73,7 +71,6 @@
 		/obj/item/sharpener = 1,
 		/obj/item/choice_beacon/ingredient = 1
 	)
-	skillchips = list(/obj/item/skillchip/job/chef)
 
 	implants = list(/obj/item/implant/mindshield)
 
@@ -97,8 +94,6 @@
 	box = /obj/item/storage/box/survival/engineer
 	pda_slot = ITEM_SLOT_LPOCKET
 	backpack_contents = list(/obj/item/modular_computer/tablet/preset/advanced/engineering=1)
-
-	skillchips = list(/obj/item/skillchip/job/engineer)
 
 	implants = list(/obj/item/implant/mindshield)
 
@@ -134,8 +129,6 @@
 	satchel = /obj/item/storage/backpack/satchel/med
 	duffelbag = /obj/item/storage/backpack/duffelbag/med
 	box = /obj/item/storage/box/survival/medical
-
-	skillchips = list(/obj/item/skillchip/entrails_reader)
 
 	chameleon_extras = /obj/item/gun/syringe
 
