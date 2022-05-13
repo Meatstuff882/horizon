@@ -154,6 +154,7 @@
 "cQ" = (
 /obj/structure/dresser,
 /obj/machinery/light/small/directional/east,
+/obj/machinery/light_switch/directional/north,
 /turf/open/floor/wood,
 /area/commons/dorms)
 "cY" = (
@@ -225,6 +226,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/light_switch/directional/north,
 /turf/open/floor/iron,
 /area/hallway/primary/central)
 "fw" = (
@@ -428,7 +430,6 @@
 /area/hallway/primary/central)
 "hQ" = (
 /obj/machinery/door/airlock/maintenance_hatch,
-/obj/effect/mapping_helpers/airlock/abandoned,
 /turf/open/floor/plating,
 /area/maintenance/fore/upper)
 "ie" = (
@@ -630,6 +631,7 @@
 /area/hallway/primary/central)
 "lj" = (
 /obj/structure/dresser,
+/obj/machinery/light_switch/directional/north,
 /turf/open/floor/wood,
 /area/commons/dorms)
 "ll" = (
@@ -677,6 +679,13 @@
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood,
 /area/service/bar)
+"mq" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/machinery/light_switch/directional/west,
+/turf/open/floor/iron,
+/area/hallway/primary/central)
 "mx" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/drinkingglass{
@@ -2451,6 +2460,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/box/corners,
+/obj/machinery/light_switch/directional/north,
 /turf/open/floor/iron/textured_large,
 /area/engineering/storage)
 "Rr" = (
@@ -2473,6 +2483,7 @@
 	},
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
 /obj/machinery/airalarm/directional/north,
+/obj/machinery/light_switch/directional/east,
 /turf/open/floor/iron/white,
 /area/science/explab)
 "RC" = (
@@ -2931,6 +2942,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
+/obj/machinery/light_switch/directional/west,
 /turf/open/floor/iron,
 /area/hallway/primary/central)
 "Zs" = (
@@ -34228,7 +34240,7 @@ Ub
 Ub
 Vq
 Ub
-Ub
+mq
 HZ
 Pu
 ru

@@ -447,6 +447,7 @@
 "It" = (
 /obj/structure/cable,
 /obj/machinery/telecomms/message_server/preset,
+/obj/machinery/light_switch/directional/east,
 /turf/open/floor/circuit,
 /area/tcommsat/server)
 "IE" = (
@@ -673,6 +674,7 @@
 	dir = 4
 	},
 /obj/structure/chair/sofa/bench/left,
+/obj/machinery/light_switch/directional/north,
 /turf/open/floor/iron/smooth,
 /area/hallway/secondary/exit/departure_lounge)
 "Vi" = (

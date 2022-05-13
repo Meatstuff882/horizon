@@ -482,6 +482,7 @@
 /area/engineering/atmos)
 "ea" = (
 /obj/item/kirbyplants/random,
+/obj/machinery/light_switch/directional/west,
 /turf/open/floor/wood,
 /area/command/meeting_room/council)
 "ed" = (
@@ -769,6 +770,7 @@
 "gH" = (
 /obj/structure/cable/layer1,
 /obj/structure/cable,
+/obj/machinery/light_switch/directional/east,
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
 "gM" = (
@@ -892,6 +894,7 @@
 	},
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/light_switch/directional/west,
 /turf/open/floor/iron/dark/textured,
 /area/security/brig)
 "hX" = (
@@ -1450,6 +1453,7 @@
 	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/mapping_helpers/smart_pipe/manifold4w/supply/hidden/layer4,
+/obj/machinery/light_switch/directional/north,
 /turf/open/floor/iron/showroomfloor,
 /area/commons/toilet/restrooms)
 "lm" = (
@@ -1743,6 +1747,7 @@
 /obj/machinery/nuclearbomb/selfdestruct{
 	layer = 2
 	},
+/obj/machinery/light/directional/east,
 /turf/open/floor/circuit/green,
 /area/ai_monitored/command/nuke_storage)
 "nw" = (
@@ -3034,6 +3039,7 @@
 "wQ" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/cable,
+/obj/machinery/light_switch/directional/west,
 /turf/open/floor/plating/elevatorshaft,
 /area/engineering/gravity_generator)
 "wR" = (
@@ -4133,6 +4139,7 @@
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/machinery/light_switch/directional/west,
 /turf/open/floor/iron/dark,
 /area/command/bridge)
 "Eh" = (
@@ -4619,6 +4626,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
+/obj/machinery/light_switch/directional/east,
 /turf/open/floor/iron/white/textured,
 /area/medical/treatment_center)
 "Jj" = (
@@ -5298,10 +5306,10 @@
 /turf/open/floor/circuit/green,
 /area/engineering/supermatter)
 "Ny" = (
-/obj/effect/mapping_helpers/smart_pipe/manifold4w/orange/visible,
 /obj/machinery/door/airlock/maintenance/external/glass{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/smart_pipe/manifold4w/orange/visible/layer1,
 /turf/open/floor/plating,
 /area/maintenance/department/engine/atmos)
 "NA" = (
@@ -6063,6 +6071,7 @@
 /obj/effect/turf_decal/box/corners{
 	dir = 1
 	},
+/obj/machinery/light_switch/directional/east,
 /turf/open/floor/iron/textured_large,
 /area/engineering/atmos)
 "SR" = (
@@ -6326,6 +6335,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/machinery/light_switch/directional/west,
 /turf/open/floor/iron/dark,
 /area/ai_monitored/command/nuke_storage)
 "VC" = (
@@ -6704,10 +6714,10 @@
 /turf/open/floor/plating,
 /area/command/bridge)
 "Yr" = (
-/obj/machinery/atmospherics/components/binary/thermomachine{
+/obj/effect/turf_decal/box,
+/obj/machinery/atmospherics/components/binary/heat_pump/freezer{
 	dir = 8
 	},
-/obj/effect/turf_decal/box,
 /turf/open/floor/engine,
 /area/engineering/supermatter/room)
 "Ys" = (
