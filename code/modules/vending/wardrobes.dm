@@ -2,8 +2,8 @@
 	icon_state = "refill_clothes"
 
 /obj/machinery/vending/wardrobe
-	default_price = PAYCHECK_ASSISTANT
-	extra_price = PAYCHECK_HARD
+	default_price = 0
+	extra_price = 0
 	payment_department = NO_FREEBIES
 	input_display_header = "Returned Clothing"
 	light_mask = "wardrobe-light-mask"
@@ -30,8 +30,8 @@
 					/obj/item/clothing/under/rank/security/officer/skirt = 3,
 					/obj/item/clothing/under/rank/security/officer/grey = 3,
 					/obj/item/clothing/under/pants/khaki = 3,
-					/obj/item/clothing/under/rank/security/officer/blueshirt = 3)
-	premium = list(/obj/item/clothing/under/rank/security/officer/formal = 3,
+					/obj/item/clothing/under/rank/security/officer/blueshirt = 3,
+					/obj/item/clothing/under/rank/security/officer/formal = 3,
 					/obj/item/clothing/suit/security/officer = 3,
 					/obj/item/clothing/head/beret/sec/navyofficer = 3)
 	refill_canister = /obj/item/vending_refill/wardrobe/sec_wardrobe
@@ -134,9 +134,7 @@
 		/obj/item/clothing/shoes/sneakers/black = 3,
 		/obj/item/clothing/gloves/fingerless = 3,
 		/obj/item/clothing/head/soft = 3,
-		/obj/item/radio/headset/headset_cargo = 3
-	)
-	premium = list(
+		/obj/item/radio/headset/headset_cargo = 3,
 		/obj/item/clothing/under/rank/cargo/miner = 3,
 		/obj/item/clothing/head/mailman = 1,
 		/obj/item/clothing/under/misc/mailman = 1
@@ -161,11 +159,11 @@
 					/obj/item/clothing/shoes/sneakers/black = 2,
 					/obj/item/clothing/gloves/fingerless = 2,
 					/obj/item/clothing/head/soft/black = 2,
-					/obj/item/clothing/mask/bandana/skull = 2)
-	contraband = list(/obj/item/clothing/suit/hooded/techpriest = 2,
+					/obj/item/clothing/mask/bandana/skull = 2,
+					/obj/item/clothing/suit/hooded/techpriest = 2,
 					/obj/item/organ/tongue/robot = 2)
 	refill_canister = /obj/item/vending_refill/wardrobe/robo_wardrobe
-	extra_price = PAYCHECK_HARD * 1.2
+	extra_price = 0
 	payment_department = ACCOUNT_SCI
 /obj/item/vending_refill/wardrobe/robo_wardrobe
 	machine_name = "RoboDrobe"
@@ -273,11 +271,11 @@
 					/obj/item/storage/fancy/candle_box/pear = 1,
 					/obj/item/storage/fancy/candle_box/amber = 1,
 					/obj/item/storage/fancy/candle_box/jasmine = 1,
-					/obj/item/storage/fancy/candle_box/mint = 1)
-	premium = list(/obj/item/storage/box/dishdrive = 1)
+					/obj/item/storage/fancy/candle_box/mint = 1,
+					/obj/item/storage/box/dishdrive = 1)
 	refill_canister = /obj/item/vending_refill/wardrobe/bar_wardrobe
 	payment_department = ACCOUNT_SRV
-	extra_price = PAYCHECK_HARD
+	extra_price = 0
 /obj/item/vending_refill/wardrobe/bar_wardrobe
 	machine_name = "BarDrobe"
 
@@ -332,8 +330,8 @@
 					/obj/item/watertank/janitor = 1,
 					/obj/item/storage/belt/janitor = 2)
 	refill_canister = /obj/item/vending_refill/wardrobe/jani_wardrobe
-	default_price = PAYCHECK_EASY
-	extra_price = PAYCHECK_HARD * 0.8
+	default_price = 0
+	extra_price = 0
 	payment_department = ACCOUNT_SRV
 	light_color = COLOR_STRONG_MAGENTA
 
@@ -394,13 +392,13 @@
 					/obj/item/clothing/head/taqiyahwhite = 1,
 					/obj/item/clothing/head/taqiyahred = 3,
 					/obj/item/clothing/suit/chaplainsuit/monkrobeeast = 1,
-					/obj/item/clothing/head/beanie/rasta = 1)
-	contraband = list(/obj/item/toy/plush/ratplush = 1,
+					/obj/item/clothing/head/beanie/rasta = 1,
+					/obj/item/toy/plush/ratplush = 1,
 					/obj/item/toy/plush/narplush = 1,
 					/obj/item/clothing/head/medievaljewhat = 3,
 					/obj/item/clothing/suit/chaplainsuit/clownpriest = 1,
-					/obj/item/clothing/head/clownmitre = 1)
-	premium = list(/obj/item/clothing/suit/chaplainsuit/bishoprobe = 1,
+					/obj/item/clothing/head/clownmitre = 1,
+					/obj/item/clothing/suit/chaplainsuit/bishoprobe = 1,
 					/obj/item/clothing/head/bishopmitre = 1)
 	refill_canister = /obj/item/vending_refill/wardrobe/chap_wardrobe
 	payment_department = ACCOUNT_SRV
@@ -423,7 +421,7 @@
 					/obj/item/storage/backpack/duffelbag/chemistry = 2,
 					/obj/item/storage/bag/chemistry = 2,
 					/obj/item/ph_booklet = 3)
-	contraband = list(/obj/item/reagent_containers/spray/syndicate = 2)
+					/obj/item/reagent_containers/spray/syndicate = 2)
 	refill_canister = /obj/item/vending_refill/wardrobe/chem_wardrobe
 	payment_department = ACCOUNT_MED
 /obj/item/vending_refill/wardrobe/chem_wardrobe
@@ -490,9 +488,9 @@
 					/obj/item/clothing/gloves/color/latex = 2,
 					/obj/item/reagent_containers/food/drinks/flask/det = 2,
 					/obj/item/storage/fancy/cigarettes = 5)
-	premium = list(/obj/item/clothing/head/flatcap = 1)
+					/obj/item/clothing/head/flatcap = 1)
 	refill_canister = /obj/item/vending_refill/wardrobe/det_wardrobe
-	extra_price = PAYCHECK_COMMAND * 1.75
+	extra_price = 0
 	payment_department = ACCOUNT_SEC
 
 /obj/item/vending_refill/wardrobe/det_wardrobe

@@ -3,7 +3,6 @@
 	desc = "A vending machine for costumes."
 	icon_state = "theater"
 	icon_deny = "theater-deny"
-	req_access = list(ACCESS_THEATRE)
 	product_slogans = "Dress for success!;Suited and booted!;It's show time!;Why leave style up to fate? Use AutoDrobe!"
 	vend_reply = "Thank you for using AutoDrobe!"
 	products = list(/obj/item/clothing/suit/chickensuit = 1,
@@ -122,32 +121,32 @@
 					/obj/item/clothing/suit/changshan_blue = 1,
 					/obj/item/clothing/suit/cheongsam_red = 1,
 					/obj/item/clothing/suit/cheongsam_blue = 1,
-					/obj/item/gohei = 1)
-	contraband = list(/obj/item/clothing/suit/judgerobe = 1,
-					  /obj/item/clothing/head/powdered_wig = 1,
-					  /obj/item/gun/magic/wand/nothing = 2,
-					  /obj/item/clothing/glasses/sunglasses/garb = 2,
-					  /obj/item/clothing/glasses/blindfold = 1,
-					  /obj/item/clothing/mask/muzzle = 2)
-	premium = list(/obj/item/clothing/suit/pirate/captain = 2,
-				   /obj/item/clothing/head/pirate/captain = 2,
-				   /obj/item/clothing/under/rank/civilian/clown/rainbow = 1,
-				   /obj/item/clothing/head/helmet/roman/fake = 1,
-				   /obj/item/clothing/head/helmet/roman/legionnaire/fake = 1,
-				   /obj/item/clothing/under/costume/roman = 1,
-				   /obj/item/clothing/shoes/roman = 1,
-				   /obj/item/shield/riot/roman/fake = 1,
-				   /obj/item/clothing/suit/chaplainsuit/clownpriest = 1,
-				   /obj/item/clothing/head/clownmitre = 1,
-				   /obj/item/skub = 1,
-				   /obj/item/clothing/suit/hooded/mysticrobe = 1,
-				   /obj/item/clothing/under/dress/wedding_dress = 1,
-				   /obj/item/clothing/under/suit/tuxedo = 1,
-				   /obj/item/clothing/head/weddingveil = 1,
-				   /obj/item/storage/belt/cummerbund = 1)
+					/obj/item/gohei = 1,
+					/obj/item/clothing/suit/judgerobe = 1,
+					/obj/item/clothing/head/powdered_wig = 1,
+					/obj/item/gun/magic/wand/nothing = 2,
+					/obj/item/clothing/glasses/sunglasses/garb = 2,
+					/obj/item/clothing/glasses/blindfold = 1,
+					/obj/item/clothing/mask/muzzle = 2,
+					/obj/item/clothing/suit/pirate/captain = 2,
+					/obj/item/clothing/head/pirate/captain = 2,
+					/obj/item/clothing/under/rank/civilian/clown/rainbow = 1,
+					/obj/item/clothing/head/helmet/roman/fake = 1,
+					/obj/item/clothing/head/helmet/roman/legionnaire/fake = 1,
+					/obj/item/clothing/under/costume/roman = 1,
+					/obj/item/clothing/shoes/roman = 1,
+					/obj/item/shield/riot/roman/fake = 1,
+					/obj/item/clothing/suit/chaplainsuit/clownpriest = 1,
+					/obj/item/clothing/head/clownmitre = 1,
+					/obj/item/skub = 1,
+					/obj/item/clothing/suit/hooded/mysticrobe = 1,
+					/obj/item/clothing/under/dress/wedding_dress = 1,
+					/obj/item/clothing/under/suit/tuxedo = 1,
+					/obj/item/clothing/head/weddingveil = 1,
+					/obj/item/storage/belt/cummerbund = 1)
 	refill_canister = /obj/item/vending_refill/autodrobe
-	default_price = PAYCHECK_ASSISTANT * 0.8 //Default of 40.
-	extra_price = PAYCHECK_HARD
+	default_price = 0
+	extra_price = 0
 	payment_department = ACCOUNT_SRV
 	light_mask="theater-light-mask"
 

@@ -16,16 +16,16 @@
 					/obj/item/reagent_containers/food/drinks/soda_cans/lubricola = 10,
 					/obj/item/reagent_containers/food/drinks/soda_cans/welding_fizz = 10,
 					/obj/item/reagent_containers/food/drinks/waterbottle = 10,
-					/obj/item/reagent_containers/food/drinks/bottle/mushi_kombucha = 3)
-	contraband = list(/obj/item/reagent_containers/food/drinks/soda_cans/thirteenloko = 6,
-		              /obj/item/reagent_containers/food/drinks/soda_cans/shamblers = 6)
-	premium = list(/obj/item/reagent_containers/food/drinks/drinkingglass/filled/nuka_cola = 1,
-		           /obj/item/reagent_containers/food/drinks/soda_cans/air = 1,
-		           /obj/item/reagent_containers/food/drinks/soda_cans/monkey_energy = 1,
-		           /obj/item/reagent_containers/food/drinks/soda_cans/grey_bull = 1)
+					/obj/item/reagent_containers/food/drinks/bottle/mushi_kombucha = 3,
+					/obj/item/reagent_containers/food/drinks/soda_cans/thirteenloko = 6,
+		            /obj/item/reagent_containers/food/drinks/soda_cans/shamblers = 6,
+					/obj/item/reagent_containers/food/drinks/drinkingglass/filled/nuka_cola = 1,
+		        	/obj/item/reagent_containers/food/drinks/soda_cans/air = 1,
+		        	/obj/item/reagent_containers/food/drinks/soda_cans/monkey_energy = 1,
+		        	/obj/item/reagent_containers/food/drinks/soda_cans/grey_bull = 1)
 	refill_canister = /obj/item/vending_refill/cola
-	default_price = PAYCHECK_ASSISTANT * 0.7
-	extra_price = PAYCHECK_MEDIUM
+	default_price = 0
+	extra_price = 0
 	payment_department = ACCOUNT_SRV
 
 

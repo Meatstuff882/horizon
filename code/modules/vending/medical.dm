@@ -4,7 +4,6 @@
 	icon_state = "med"
 	icon_deny = "med-deny"
 	product_ads = "Go save some lives!;The best stuff for your medbay.;Only the finest tools.;Natural chemicals!;This stuff saves lives.;Don't you want some?;Ping!"
-	req_access = list(ACCESS_MEDICAL)
 	products = list(/obj/item/stack/medical/gauze = 8,
 					/obj/item/reagent_containers/syringe = 12,
 					/obj/item/reagent_containers/dropper = 3,
@@ -14,10 +13,10 @@
 					/obj/item/healthanalyzer/wound = 4,
 					/obj/item/stack/medical/ointment = 2,
 					/obj/item/stack/medical/suture = 2,
-					/obj/item/stack/medical/bone_gel/four = 4)
-	contraband = list(/obj/item/storage/box/gum/happiness = 3,
-						/obj/item/storage/box/hug/medical = 1)
-	premium = list(/obj/item/reagent_containers/hypospray/medipen = 3,
+					/obj/item/stack/medical/bone_gel/four = 4,
+					/obj/item/storage/box/gum/happiness = 3,
+					/obj/item/storage/box/hug/medical = 1,
+					/obj/item/reagent_containers/hypospray/medipen = 3,
 					/obj/item/storage/belt/medical = 3,
 					/obj/item/sensor_device = 2,
 					/obj/item/pinpointer/crew = 2,
@@ -25,8 +24,8 @@
 					/obj/item/shears = 1,
 					/obj/item/storage/organbox = 1)
 	refill_canister = /obj/item/vending_refill/medical
-	default_price = PAYCHECK_EASY
-	extra_price = PAYCHECK_COMMAND
+	default_price = 0
+	extra_price = 0
 	payment_department = ACCOUNT_MED
 	light_mask = "med-light-mask"
 
